@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.block-item {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 120%;
+  height: 150px;
+  width: 150px;
+  background: gold;
+  margin: 5px;
+}
+.block-item-red {
+  background: palegreen;
+}
+.block-item-grey {
+  background: rgb(16, 16, 16);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$grey:rgba(16, 16, 16, 1);
+@mixin font ($fs:14px, $fw:400, $lh:16px){
+    font-family: Roboto;
+    font-size: $fs;
+    font-weight:$fw;
+    line-height: $lh;
+}
+.block{
+
+    &-item{
+        @include font(19px, 600, 120%);
+        height: 150px;
+        width: 150px;
+        background: gold;
+        margin: 5px;
+
+        &-red{
+            background: palegreen;
+        }
+        &-grey{
+            background: $grey;
+        }
+    }
+
+}
